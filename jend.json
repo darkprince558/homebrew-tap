@@ -1,19 +1,19 @@
 {
-    "version": "1.0.3",
+    "version": "1.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/darkprince558/JEND/releases/download/v1.0.3/jend_Windows_x86_64.zip",
+            "url": "https://github.com/darkprince558/JEND/releases/download/v1.1.0/jend_Windows_x86_64.zip",
             "bin": [
                 "jend.exe"
             ],
-            "hash": "44eebcc94b800809a121a08d48ab546f10ac962c4a8d96616c19d68b915e4b4f"
+            "hash": "57048d883db3d70cbbdc1689bade2fb8ef49fd825ff1686091847303fdc8711c"
         },
         "arm64": {
-            "url": "https://github.com/darkprince558/JEND/releases/download/v1.0.3/jend_Windows_arm64.zip",
+            "url": "https://github.com/darkprince558/JEND/releases/download/v1.1.0/jend_Windows_arm64.zip",
             "bin": [
                 "jend.exe"
             ],
-            "hash": "90c309122d14ef1b92ba530268e26d966b9e16e2fafc4924d07d681ebf2fdae7"
+            "hash": "ca60ba5959706aa1aa42b225478228ca46dd9cac2aef4cc054c1e7c151655f39"
         }
     },
     "homepage": "https://github.com/darkprince558/jend",

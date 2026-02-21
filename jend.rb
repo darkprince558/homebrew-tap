@@ -5,21 +5,21 @@
 class Jend < Formula
   desc "JEND: Just Enough Network Drop - Modern, secure, P2P file transfer."
   homepage "https://github.com/darkprince558/jend"
-  version "1.1.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/darkprince558/JEND/releases/download/v1.1.0/jend_Darwin_x86_64.tar.gz"
-      sha256 "b57c9c9084f69f0b64839cb0a82dafee991dbd1422383293f0007e8aab575579"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.0.0/jend_Darwin_x86_64.tar.gz"
+      sha256 "b245349245a6d8042533428c1ff0567348b644821cb7dcc7803b1b1cd73941d2"
 
       def install
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/darkprince558/JEND/releases/download/v1.1.0/jend_Darwin_arm64.tar.gz"
-      sha256 "211132fa2b77310d2d1731ce2d6b9bacd8247e3f9fef031f99104fbdf01ebba8"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.0.0/jend_Darwin_arm64.tar.gz"
+      sha256 "216fe34bf1962de79dca770acc5004e75b865ea1c7acde590a83c23773bed569"
 
       def install
         bin.install "jend"
@@ -29,15 +29,15 @@ class Jend < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/darkprince558/JEND/releases/download/v1.1.0/jend_Linux_x86_64.tar.gz"
-      sha256 "c040638c311a7a94319d10610dfba2a87dc3ee055883dbe02aecd0172d873722"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.0.0/jend_Linux_x86_64.tar.gz"
+      sha256 "9051322d7a006293af8d25cf9976d35bd69705ae40dde4815ea2403390fa567f"
       def install
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/darkprince558/JEND/releases/download/v1.1.0/jend_Linux_arm64.tar.gz"
-      sha256 "af5d6f3bb20248382e61a974b609f055535912a876a90779eb05daa6026f466f"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.0.0/jend_Linux_arm64.tar.gz"
+      sha256 "24ee8c697cf6d85a9798a917414a7c77298985aabeebcd37cc74e496a6b700ca"
       def install
         bin.install "jend"
       end

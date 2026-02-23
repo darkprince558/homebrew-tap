@@ -11,7 +11,7 @@ class Jend < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/darkprince558/JEND/releases/download/v2.4.0/jend_Darwin_x86_64.tar.gz"
-      sha256 "f6eb9569d40009acdb60a28383eec8d8167b157ea0a056a4f1a2bbb3408d4916"
+      sha256 "4e8e4cdf9259a49582e5b394164cbfd7fc428f74835b60014c9f083fb22df458"
 
       define_method(:install) do
         bin.install "jend"
@@ -19,7 +19,7 @@ class Jend < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/darkprince558/JEND/releases/download/v2.4.0/jend_Darwin_arm64.tar.gz"
-      sha256 "8766bffbf108c61abef5c3686b7d7896f333d161679c38eb56c97b68ddbb180d"
+      sha256 "f79d6364dd301a73daae85bc5d50caf162ddfe337d37d275c161c5549b2899ad"
 
       define_method(:install) do
         bin.install "jend"
@@ -30,14 +30,14 @@ class Jend < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/darkprince558/JEND/releases/download/v2.4.0/jend_Linux_x86_64.tar.gz"
-      sha256 "11e202f8370be64b3799c0d377d136c54330d1d9363257c370c025bc0a924cbe"
+      sha256 "00e31f110772d761730bb89276f6b9ca1132a8da85d85180bfd8615533e31870"
       define_method(:install) do
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/darkprince558/JEND/releases/download/v2.4.0/jend_Linux_arm64.tar.gz"
-      sha256 "3b1bb92277337db63875bda8a2eca76d13a0c72129f2108dc9cd4628667a93ba"
+      sha256 "643caef49e455225dd42a2cc45e82d5b75f3c858f7ae1e591823e4a8dedb1575"
       define_method(:install) do
         bin.install "jend"
       end

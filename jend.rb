@@ -5,21 +5,21 @@
 class Jend < Formula
   desc "JEND: Just Enough Network Drop - Modern, secure, P2P file transfer."
   homepage "https://github.com/darkprince558/jend"
-  version "2.3.0"
+  version "2.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.3.0/jend_Darwin_x86_64.tar.gz"
-      sha256 "050163de651bb69b06e35edf686067f316655485afa20178fd06a9af4ab8b228"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.3.1/jend_Darwin_x86_64.tar.gz"
+      sha256 "63213bc12385d97eb73e3c1dd1dc6ab9f79ab4d44a07fa8c75596268515a3fb9"
 
       define_method(:install) do
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.3.0/jend_Darwin_arm64.tar.gz"
-      sha256 "21427b604ce1f3a1ef60f666f91e8393186018670d31c868ac79bb343ee71184"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.3.1/jend_Darwin_arm64.tar.gz"
+      sha256 "a03793781bf20d2493353571067a1a04e12847a30ad38364854a28d6d5dff16c"
 
       define_method(:install) do
         bin.install "jend"
@@ -29,15 +29,15 @@ class Jend < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.3.0/jend_Linux_x86_64.tar.gz"
-      sha256 "cd3a8e883bf1fb47bfe69c72d313cd1cc286edb34c86b273ecbc4c94de505ac1"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.3.1/jend_Linux_x86_64.tar.gz"
+      sha256 "9b1f03e769468947adfb1a455125d0cb73cbcd3ef3e23b55bcfdbde42c28d80a"
       define_method(:install) do
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.3.0/jend_Linux_arm64.tar.gz"
-      sha256 "9e3cade009e08918b3a9165e74ffba4debee7664c8e08ad255a0622621204f99"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.3.1/jend_Linux_arm64.tar.gz"
+      sha256 "edb27b7c4986324bf6a9fd9380c2a008830116dfca839b19f174d3c024b81383"
       define_method(:install) do
         bin.install "jend"
       end

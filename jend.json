@@ -6,14 +6,14 @@
             "bin": [
                 "jend.exe"
             ],
-            "hash": "b4bc2058e35169baa5657dbcb87fe9302a3191b0f06d16771f9e68bb3acebf92"
+            "hash": "dc248b75f535ffe46db01242c21610d5208c7e1a108d6f6cb0e625bcc6c2c90a"
         },
         "arm64": {
             "url": "https://github.com/darkprince558/JEND/releases/download/v2.4.0/jend_Windows_arm64.zip",
             "bin": [
                 "jend.exe"
             ],
-            "hash": "09ebd04835aa458e2590043c878fcba73d5bd4cb81f04f24fa23e7510907e6ad"
+            "hash": "daf5de561954385c090a2b143691592efe9eeabe2c9e687f6d2aeeac3e578aad"
         }
     },
     "homepage": "https://github.com/darkprince558/jend",

@@ -5,21 +5,21 @@
 class Jend < Formula
   desc "JEND - Modern, secure, P2P file transfer."
   homepage "https://github.com/darkprince558/jend"
-  version "2.8.0"
+  version "2.8.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.8.0/jend_Darwin_x86_64.tar.gz"
-      sha256 "50424cd55180efcdeb46e818d50d64fa4cadaab2bd22fb73238ec566c9308711"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.8.1/jend_Darwin_x86_64.tar.gz"
+      sha256 "01d8237fd4378f6c32841b35482f116e254270968360fbe1b9f8bddc5fd9da36"
 
       define_method(:install) do
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.8.0/jend_Darwin_arm64.tar.gz"
-      sha256 "f7109166e3f3b75281513d8e59f1b6ad16a0bb61882924412b7a5f02c87d8e36"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.8.1/jend_Darwin_arm64.tar.gz"
+      sha256 "eb92b4c1118fdd0fda1d29e919786849528740c37923c2d6895afcf316eb265e"
 
       define_method(:install) do
         bin.install "jend"
@@ -29,15 +29,15 @@ class Jend < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.8.0/jend_Linux_x86_64.tar.gz"
-      sha256 "42fc06235688f4c4cc4992e811cef9d23ee6338e96e799a819e19cc6a2224d2d"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.8.1/jend_Linux_x86_64.tar.gz"
+      sha256 "fdf7021e3f120ccb8d6cb90f21c7983ed01c648ebd098b17c3846a1f297b755f"
       define_method(:install) do
         bin.install "jend"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/darkprince558/JEND/releases/download/v2.8.0/jend_Linux_arm64.tar.gz"
-      sha256 "34fe5490e2abad9ce81f5937709a3aa36a5dc316477b44957523c2b5cf38c30a"
+      url "https://github.com/darkprince558/JEND/releases/download/v2.8.1/jend_Linux_arm64.tar.gz"
+      sha256 "e9a102b559fcce6cc58f2b6d0f8594ec77a5fb36fcb79f92cf2d78a9b7eb63ba"
       define_method(:install) do
         bin.install "jend"
       end

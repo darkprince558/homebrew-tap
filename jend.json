@@ -1,22 +1,22 @@
 {
-    "version": "2.7.1",
+    "version": "2.8.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/darkprince558/JEND/releases/download/v2.7.1/jend_Windows_x86_64.zip",
+            "url": "https://github.com/darkprince558/JEND/releases/download/v2.8.0/jend_Windows_x86_64.zip",
             "bin": [
                 "jend.exe"
             ],
-            "hash": "63b52d1257ee5cf51fe5e3b761005cd1b1c23fdf8c14b20c6414a8109210c252"
+            "hash": "2fdd8fbeeceaf1481472cd5ad15de016c45cefdbdd337e63036466bd90d92f19"
         },
         "arm64": {
-            "url": "https://github.com/darkprince558/JEND/releases/download/v2.7.1/jend_Windows_arm64.zip",
+            "url": "https://github.com/darkprince558/JEND/releases/download/v2.8.0/jend_Windows_arm64.zip",
             "bin": [
                 "jend.exe"
             ],
-            "hash": "64d69ed38774dad2b72929ca89e4d40ed652f2319ef1b44d231d095eaab9f402"
+            "hash": "21ead9e99e7bc0704e8ea929c60bc5b47fef488a825e81a359e5dba9e8e4a258"
         }
     },
     "homepage": "https://github.com/darkprince558/jend",
     "license": "MIT",
-    "description": "JEND: Just Enough Network Drop - Modern, secure, P2P file transfer."
+    "description": "JEND - Modern, secure, P2P file transfer."
 }
